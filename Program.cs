@@ -16,7 +16,7 @@ class Program
             }
         }
         string[] outputArray = outputList.ToArray();
-        Console.WriteLine(string.Join(", ", outputArray));
+        Console.WriteLine("[" + string.Join(", ", outputArray) + "]");
     }
 }
 
